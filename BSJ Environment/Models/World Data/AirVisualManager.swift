@@ -1,3 +1,10 @@
+//
+//  AirVisualManager.swift
+//  BSJ Environment
+//
+//  Created by Pranav  Suri on 1/5/20.
+//  Copyright © 2020 Pranav  Suri. All rights reserved.
+//
 import Foundation
 
 protocol AirVisualManagerDelegate {
@@ -47,10 +54,10 @@ struct AirVisualManager{
             let city = decodedData.data.city
 			let state = decodedData.data.state
 			let country = decodedData.data.country
-            let temp = decodedData.data.currentConditions.weather.temperature
-            let aqi = decodedData.data.currentConditions.pollution.aqiUS
-            let mainaqi = decodedData.data.currentConditions.pollution.mainPollutantUS
-			let image = decodedData.data.currentConditions.weather.image
+            let temp = decodedData.data.current.weather.temperature
+            let aqi = decodedData.data.current.pollution.aqiUS
+            let mainaqi = decodedData.data.current.pollution.mainPollutantUS
+			let image = decodedData.data.current.weather.image
 			let pollution = AirVisualModel(cityName: city,stateName: state, countryName: country ,temperature: temp, aqi: aqi, mainaqi: mainaqi, weatherImage: image)
             return pollution
         } catch{

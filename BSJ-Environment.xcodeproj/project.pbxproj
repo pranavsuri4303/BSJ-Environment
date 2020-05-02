@@ -14,21 +14,19 @@
 		FF058773244463EE006A9D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF058772244463EE006A9D9A /* Assets.xcassets */; };
 		FF058776244463EE006A9D9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF058774244463EE006A9D9A /* LaunchScreen.storyboard */; };
 		FF058781244474E9006A9D9A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF058780244474E9006A9D9A /* LoginViewController.swift */; };
-		FF18F5F12444DC1E00F6AEDD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF18F5F02444DC1E00F6AEDD /* GoogleService-Info.plist */; };
 		FF4E216E2448C05200CBD171 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E216D2448C05200CBD171 /* InformationViewController.swift */; };
 		FF6B0AC6244644010079BDC7 /* AirVisualManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B0AC5244644010079BDC7 /* AirVisualManager.swift */; };
-		FF6B0AC82446440F0079BDC7 /* AirVisualDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B0AC72446440F0079BDC7 /* AirVisualDataResponse.swift */; };
 		FF6B0ACB244644460079BDC7 /* AirVisualModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B0ACA244644460079BDC7 /* AirVisualModel.swift */; };
 		FF6CA2752445F90B004CD8A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6CA2742445F90B004CD8A3 /* WelcomeViewController.swift */; };
 		FF6CA277244625EC004CD8A3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6CA276244625EC004CD8A3 /* RegisterViewController.swift */; };
 		FF807855244752D9005936B2 /* LoginErrorDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF807854244752D9005936B2 /* LoginErrorDisplayer.swift */; };
 		FF80785C24478AD6005936B2 /* RegisterErrorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF80785B24478AD6005936B2 /* RegisterErrorDisplay.swift */; };
 		FF8556282445E1000050A8F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8556272445E1000050A8F4 /* Constants.swift */; };
-		FF9D5FA824487D5E002DC3F1 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D5FA724487D5E002DC3F1 /* WorldViewController.swift */; };
-		FF9D5FAA24487D76002DC3F1 /* IndonesiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D5FA924487D76002DC3F1 /* IndonesiaViewController.swift */; };
 		FF9D5FAC24487D90002DC3F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D5FAB24487D90002DC3F1 /* ProfileViewController.swift */; };
 		FF9D5FAE24487DA7002DC3F1 /* BSJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D5FAD24487DA7002DC3F1 /* BSJViewController.swift */; };
 		FFA06A012446941C003272FE /* ValidityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA06A002446941C003272FE /* ValidityChecker.swift */; };
+		FFBB8BD7245C6002005F1062 /* AirVisualResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBB8BD6245C6002005F1062 /* AirVisualResponse.swift */; };
+		FFBB8BD9245C7ABC005F1062 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFBB8BD8245C7ABC005F1062 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,21 +41,19 @@
 		FF058775244463EE006A9D9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF058777244463EE006A9D9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF058780244474E9006A9D9A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FF18F5F02444DC1E00F6AEDD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/21surip/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF4E216D2448C05200CBD171 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		FF6B0AC5244644010079BDC7 /* AirVisualManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualManager.swift; sourceTree = "<group>"; };
-		FF6B0AC72446440F0079BDC7 /* AirVisualDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualDataResponse.swift; sourceTree = "<group>"; };
 		FF6B0ACA244644460079BDC7 /* AirVisualModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualModel.swift; sourceTree = "<group>"; };
 		FF6CA2742445F90B004CD8A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FF6CA276244625EC004CD8A3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		FF807854244752D9005936B2 /* LoginErrorDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginErrorDisplayer.swift; sourceTree = "<group>"; };
 		FF80785B24478AD6005936B2 /* RegisterErrorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterErrorDisplay.swift; sourceTree = "<group>"; };
 		FF8556272445E1000050A8F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		FF9D5FA724487D5E002DC3F1 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
-		FF9D5FA924487D76002DC3F1 /* IndonesiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndonesiaViewController.swift; sourceTree = "<group>"; };
 		FF9D5FAB24487D90002DC3F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FF9D5FAD24487DA7002DC3F1 /* BSJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSJViewController.swift; sourceTree = "<group>"; };
 		FFA06A002446941C003272FE /* ValidityChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidityChecker.swift; sourceTree = "<group>"; };
+		FFBB8BD6245C6002005F1062 /* AirVisualResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirVisualResponse.swift; sourceTree = "<group>"; };
+		FFBB8BD8245C7ABC005F1062 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +112,8 @@
 				FF05877E2444640A006A9D9A /* Views */,
 				FF05877D24446400006A9D9A /* Controllers */,
 				FF058772244463EE006A9D9A /* Assets.xcassets */,
+				FFBB8BD8245C7ABC005F1062 /* GoogleService-Info.plist */,
 				FF058777244463EE006A9D9A /* Info.plist */,
-				FF18F5F02444DC1E00F6AEDD /* GoogleService-Info.plist */,
 			);
 			path = "BSJ Environment";
 			sourceTree = "<group>";
@@ -156,8 +152,8 @@
 			isa = PBXGroup;
 			children = (
 				FF6B0AC5244644010079BDC7 /* AirVisualManager.swift */,
-				FF6B0AC72446440F0079BDC7 /* AirVisualDataResponse.swift */,
 				FF6B0ACA244644460079BDC7 /* AirVisualModel.swift */,
+				FFBB8BD6245C6002005F1062 /* AirVisualResponse.swift */,
 			);
 			path = "World Data";
 			sourceTree = "<group>";
@@ -183,8 +179,6 @@
 		FF9D5FAF24487DCD002DC3F1 /* Tab Bar */ = {
 			isa = PBXGroup;
 			children = (
-				FF9D5FA724487D5E002DC3F1 /* WorldViewController.swift */,
-				FF9D5FA924487D76002DC3F1 /* IndonesiaViewController.swift */,
 				FF9D5FAD24487DA7002DC3F1 /* BSJViewController.swift */,
 				FF4E216D2448C05200CBD171 /* InformationViewController.swift */,
 				FF9D5FAB24487D90002DC3F1 /* ProfileViewController.swift */,
@@ -254,7 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF058776244463EE006A9D9A /* LaunchScreen.storyboard in Resources */,
-				FF18F5F12444DC1E00F6AEDD /* GoogleService-Info.plist in Resources */,
+				FFBB8BD9245C7ABC005F1062 /* GoogleService-Info.plist in Resources */,
 				FF058773244463EE006A9D9A /* Assets.xcassets in Resources */,
 				FF058771244463EB006A9D9A /* Main.storyboard in Resources */,
 			);
@@ -326,8 +320,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFBB8BD7245C6002005F1062 /* AirVisualResponse.swift in Sources */,
 				FF058781244474E9006A9D9A /* LoginViewController.swift in Sources */,
-				FF9D5FAA24487D76002DC3F1 /* IndonesiaViewController.swift in Sources */,
 				FF80785C24478AD6005936B2 /* RegisterErrorDisplay.swift in Sources */,
 				FF4E216E2448C05200CBD171 /* InformationViewController.swift in Sources */,
 				FF6CA277244625EC004CD8A3 /* RegisterViewController.swift in Sources */,
@@ -336,8 +330,6 @@
 				FF05876C244463EB006A9D9A /* SceneDelegate.swift in Sources */,
 				FF9D5FAC24487D90002DC3F1 /* ProfileViewController.swift in Sources */,
 				FF6B0ACB244644460079BDC7 /* AirVisualModel.swift in Sources */,
-				FF6B0AC82446440F0079BDC7 /* AirVisualDataResponse.swift in Sources */,
-				FF9D5FA824487D5E002DC3F1 /* WorldViewController.swift in Sources */,
 				FF807855244752D9005936B2 /* LoginErrorDisplayer.swift in Sources */,
 				FFA06A012446941C003272FE /* ValidityChecker.swift in Sources */,
 				FF6CA2752445F90B004CD8A3 /* WelcomeViewController.swift in Sources */,

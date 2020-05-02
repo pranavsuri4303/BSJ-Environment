@@ -62,7 +62,6 @@ class LoginViewController: UIViewController, GIDSignInDelegate{
                     E.displayError(display: self.errorLabel, with: self.emailTextField, and: self.passwordTextField, with: self.errorImage)
                 } else{
                     E.makeDisappear(this: self.spinner)
-                    
                     let VC1 = (self.storyboard?.instantiateViewController(withIdentifier: K.Home))!
                     self.present(VC1, animated: true, completion: nil)
                 }

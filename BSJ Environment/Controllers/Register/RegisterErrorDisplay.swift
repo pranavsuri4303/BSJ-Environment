@@ -6,7 +6,10 @@ public class Display{
         boxAppear(this: textField)
         errorAppear(this: errorImage)
     }
-    
+    static func errorDisappear(for textField: UITextField, with errorImage: UIImageView){
+		tickAppear(this: errorImage)
+		boxDisappear(this: textField)
+    }
     
 
     
@@ -19,10 +22,7 @@ public class Display{
     }
     
         // Overloading makeDissapear to make the object invisible to the user.
-    static func errorDisappear(this object: UIActivityIndicatorView){
-        object.alpha = 0
-        object.stopAnimating()
-    }
+
 
     static func boxDisappear(this object: UITextField){
         object.layer.borderWidth = 0
@@ -37,15 +37,20 @@ public class Display{
         object.alpha = 1
         object.startAnimating()
     }
+	static func noSpinning(this object: UIActivityIndicatorView){
+		object.alpha = 0
+		object.stopAnimating()
+	}
     
     static func boxAppear(this object: UITextField){
         object.layer.borderWidth = 2
         object.layer.borderColor = UIColor.red.cgColor
     }
     
-    static func errorAppear(this object: UIImageView){
+	static func errorAppear(this object: UIImageView){
         object.image = UIImage(systemName: K.errorSign)
-        object.alpha = 1
+		object.tintColor = UIColor.red
+		object.alpha = 1
     }
 }
 
